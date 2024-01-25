@@ -5,16 +5,16 @@
       "path": "..",
     },
     {
-      "name": "docs",
-      "path": "../apps/docs",
-    },
-    {
-      "name": "web",
-      "path": "../apps/web",
+      "name": "notifications-ui",
+      "path": "../apps/notifications-ui",
     },
     {
       "name": "packages",
       "path": "../packages",
+    },
+    {
+      "name": "backgroud-ui",
+      "path": "../apps/background-ui",
     },
   ],
   "settings": {
