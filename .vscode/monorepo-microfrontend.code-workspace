@@ -12,6 +12,10 @@
       "name": "web",
       "path": "../apps/web",
     },
+    {
+      "name": "packages",
+      "path": "../packages",
+    },
   ],
   "settings": {
     "editor.insertSpaces": true,
