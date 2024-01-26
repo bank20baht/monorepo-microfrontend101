@@ -6,11 +6,11 @@
     },
     {
       "name": "notifications-ui",
-      "path": "../apps/notifications-ui",
+      "path": "../apps/notification-ui",
     },
     {
-      "name": "packages",
-      "path": "../packages",
+      "name": "container",
+      "path": "../apps/ui-container",
     },
     {
       "name": "backgroud-ui",
@@ -20,5 +20,6 @@
   "settings": {
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
+    "typescript.tsdk": "root\\node_modules\\typescript\\lib",
   },
 }
