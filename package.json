@@ -7,7 +7,7 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
-    "serve": "turbo serve"
+    "serve": "turbo build && turbo serve"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",

@@ -3,12 +3,15 @@ import NotificationUI from "NotificationUI/App";
 
 function App() {
   return (
-    <div className="flex flex-row justify-between min-w-full">
-      <div className="bg-yellow-200 flex flex-col justify-center items-center min-h-screen">
-        Containner
+    <div className="h-screen w-screen">
+      <div className="relative">
+        <BackgroundUI />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div>
+            <NotificationUI />
+          </div>
+        </div>
       </div>
-      <BackgroundUI />
-      <NotificationUI />
     </div>
   );
 }
